@@ -263,8 +263,5 @@ const deepak = {
 
 ![Profile Views](https://komarev.com/ghpvc/?username=imdeepakyadav&color=brightgreen&style=flat-square)
 [![GitHub followers](https://img.shields.io/github/followers/imdeepakyadav?label=Follow&style=social)](https://github.com/imdeepakyadav)
-
 ---
-
 *"The best way to predict the future is to create it."* 💻✨
-```
