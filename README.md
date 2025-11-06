@@ -404,23 +404,6 @@ const deepak = {
 
 ---
 
-## 🎓 Statistics
-
-<div align="center">
-
-| Metric | Value |
-|--------|-------|
-| **Total Commits** | 250+ |
-| **Active Projects** | 15+ |
-| **GitHub Followers** | 1000+ |
-| **Contributions** | 50+ |
-| **Technologies** | 20+ |
-| **Years in Dev** | 8+ |
-
-</div>
-
----
-
 <div align="center">
 
 ### If you find my work interesting, consider:
