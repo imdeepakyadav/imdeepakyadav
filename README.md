@@ -16,7 +16,7 @@
 
 ## 👨‍💻 About Me
 
-\`\`\`javascript
+```
 const deepak = {
     location: "India 🇮🇳",
     company: "@Inforises_Technologies",
@@ -34,7 +34,7 @@ const deepak = {
     funFact: "I debug with console.log() and I'm not ashamed!",
     motto: "Code, Learn, Repeat 🔄"
 };
-\`\`\`
+```
 
 ---
 
