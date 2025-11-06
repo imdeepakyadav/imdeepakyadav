@@ -410,7 +410,7 @@ const deepak = {
 
 [![Star My Repos](https://img.shields.io/badge/Star%20My%20Repos-181717?style=for-the-badge)](https://github.com/imdeepakyadav?tab=repositories)
 [![Follow Me](https://img.shields.io/badge/Follow%20Me-0077B5?style=for-the-badge)](https://github.com/imdeepakyadav)
-[![Let's Collaborate](https://img.shields.io/badge/Let's%20Collaborate-FF6B6B?style=for-the-badge)](mailto:deepak@example.com)
+[![Let's Collaborate](https://img.shields.io/badge/Let's%20Collaborate-FF6B6B?style=for-the-badge)](mailto:work.deepak.yadav@gmail.com)
 
 </div>
 
