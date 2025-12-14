@@ -110,10 +110,12 @@ export default function HomePage() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="hover-scale bg-transparent border-border hover:bg-muted/30"
+                  className="hover-scale bg-transparent border-border hover:text-primary hover:bg-muted/30"
                 >
-                  <Download className="mr-2 h-5 w-5" />
-                  Download CV
+                  <a href="/resume.pdf" download>
+                    <Download className="mr-2 h-5 w-5" />
+                    Download Resume
+                  </a>
                 </Button>
               </div>
             </div>
