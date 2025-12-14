@@ -112,9 +112,9 @@ export default function HomePage() {
                   size="lg"
                   className="hover-scale bg-transparent border-border hover:text-primary hover:bg-muted/30"
                 >
-                  <a href="/resume.pdf" download>
+                  <a href="/resume.pdf" download  className="flex items-center">
                     <Download className="mr-2 h-5 w-5" />
-                    Download Resume
+                    Download CV
                   </a>
                 </Button>
               </div>
@@ -228,7 +228,7 @@ export default function HomePage() {
               asChild
               variant="outline"
               size="lg"
-              className="hover-scale bg-transparent border-border hover:bg-muted/30"
+              className="hover-scale bg-transparent border-border hover:text-primary hover:bg-muted/30"
             >
               <Link href="/projects">
                 View All Projects
@@ -278,7 +278,7 @@ export default function HomePage() {
               asChild
               variant="outline"
               size="lg"
-              className="hover-scale bg-transparent border-border hover:bg-muted/30"
+              className="hover-scale bg-transparent border-border hover:text-primary hover:bg-muted/30"
             >
               <Link href="/skills">
                 View All Skills
@@ -311,7 +311,7 @@ export default function HomePage() {
                   asChild
                   variant="outline"
                   size="lg"
-                  className="hover-scale bg-transparent border-border hover:bg-muted/30"
+                  className="hover-scale bg-transparent border-border hover:text-primary hover:bg-muted/30"
                 >
                   <Link href="/projects">View My Work</Link>
                 </Button>

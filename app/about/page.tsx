@@ -3,21 +3,21 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 import {
-  ArrowRight,
-  Award,
-  Briefcase,
-  Calendar,
-  Code,
-  Download,
-  GraduationCap,
-  Mail,
-  MapPin,
-  Phone,
-  Rocket,
-  Smartphone,
-  Star,
-  TrendingUp,
-  Users,
+    ArrowRight,
+    Award,
+    Briefcase,
+    Calendar,
+    Code,
+    Download,
+    GraduationCap,
+    Mail,
+    MapPin,
+    Phone,
+    Rocket,
+    Smartphone,
+    Star,
+    TrendingUp,
+    Users,
 } from "lucide-react"
 import type { Metadata } from "next"
 import Image from "next/image"
@@ -394,7 +394,7 @@ export default function AboutPage() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="hover-scale bg-transparent border-border hover:bg-muted/30"
+                className="hover-scale bg-transparent border-border hover:text-primary hover:bg-muted/30"
               >
                 <Link href="/projects">View My Work</Link>
               </Button>

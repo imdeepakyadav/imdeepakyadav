@@ -180,7 +180,7 @@ export default function SkillsPage() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="hover-scale bg-transparent border-border hover:bg-muted/30"
+                className="hover-scale bg-transparent border-border hover:text-primary hover:bg-muted/30"
               >
                 <Link href="/projects">View My Work</Link>
               </Button>
