@@ -20,6 +20,7 @@ import {
   Users,
 } from "lucide-react"
 import type { Metadata } from "next"
+import Image from "next/image"
 import Link from "next/link"
 
 export const metadata: Metadata = {
@@ -190,8 +191,15 @@ export default function AboutPage() {
 
           <div className="animate-fade-in-right">
             <div className="relative">
-              <div className="w-full aspect-square max-w-md mx-auto bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl flex items-center justify-center border border-border/50">
-                <div className="text-8xl">👨‍💻</div>
+              <div className="w-full aspect-square max-w-md mx-auto bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl flex items-center justify-center border border-border/50 overflow-hidden">
+                <Image
+                  src="/profile.png"
+                  alt="Deepak Yadav"
+                  width={400}
+                  height={400}
+                  className="object-cover w-full h-full"
+                  priority
+                />
               </div>
               <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-primary/20 rounded-full animate-pulse-glow blur-xl" />
               <div className="absolute -top-4 -left-4 w-16 h-16 bg-accent/20 rounded-full animate-float blur-lg" />

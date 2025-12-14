@@ -1,10 +1,10 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { Button } from "@/components/ui/button"
+import { ArrowUp, Github, Linkedin, Mail, Menu, X } from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X, Github, Linkedin, Mail, ArrowUp } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { useEffect, useState } from "react"
 
 const navItems = [
   { name: "Home", href: "/" },
@@ -49,7 +49,7 @@ export default function Navigation() {
               className="text-xl font-bold text-foreground hover:text-primary transition-colors duration-300"
             >
               <span className="text-gradient">Deepak</span>
-              <span className="text-muted-foreground">.dev</span>
+              <span className="text-muted-foreground">.Yadav</span>
             </Link>
 
             {/* Desktop Navigation */}

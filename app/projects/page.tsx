@@ -1,10 +1,10 @@
-import type { Metadata } from "next"
-import Link from "next/link"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Github, ExternalLink } from "lucide-react"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import WaveBackground from "@/components/wave-background"
+import { ExternalLink, Github } from "lucide-react"
+import type { Metadata } from "next"
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Projects - Deepak Yadav",
@@ -16,7 +16,7 @@ const projects = [
     id: "yogaapp",
     title: "YogaApp",
     description: "Cross-platform Yoga Management System built with React Native and Expo",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/yoga_app_mockup_1765692114993.png",
     tags: ["React Native", "Expo", "TypeScript", "Firebase"],
     status: "Private",
     featured: true,
@@ -25,7 +25,7 @@ const projects = [
     id: "reconnect",
     title: "ReConnect",
     description: "Global Video Chat & Social Platform with random video calls worldwide",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/reconnect_app_mockup_1765692136282.png",
     tags: ["React Native", "TypeScript", "Firebase", "WebRTC"],
     status: "Private",
     featured: true,
@@ -34,7 +34,7 @@ const projects = [
     id: "paisapilot",
     title: "PaisaPilot",
     description: "Smart Personal Finance Manager with AI-powered insights",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/paisapilot_app_mockup_1765692157320.png",
     tags: ["React Native", "Firebase", "OpenAI", "TailwindCSS"],
     status: "Open Source",
     featured: true,
@@ -43,7 +43,7 @@ const projects = [
     id: "astroapp",
     title: "AstroApp",
     description: "AI-Powered Astrology Android App with personalized predictions",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/astroapp_mockup_1765692181532.png",
     tags: ["Java", "OpenAI API", "Android"],
     status: "Open Source",
     featured: false,
@@ -52,7 +52,7 @@ const projects = [
     id: "suggestkaro",
     title: "SuggestKaro",
     description: "Smart Product Comparison Platform with AI recommendations",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/suggestkaro_interface_1765692203807.png",
     tags: ["TypeScript", "AI APIs", "E-commerce"],
     status: "Open Source",
     featured: false,
@@ -61,7 +61,7 @@ const projects = [
     id: "quiztrix",
     title: "Quiztrix",
     description: "Interactive Quiz Platform for dynamic learning and entertainment",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/quiztrix_interface_1765692221395.png",
     tags: ["React.js", "Node.js", "Express", "MongoDB"],
     status: "Open Source",
     featured: false,
