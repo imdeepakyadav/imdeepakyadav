@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   title: "ImDeepakYadav - Full Stack Developer Portfolio",
   description: "Portfolio of ImDeepakYadav - Full Stack Developer specializing in modern web technologies",
   generator: "v0.dev",
+  icons: {
+    icon: "/profile.png",
+    shortcut: "/profile.png",
+    apple: "/apple-touch-icon.png",
+  },
 }
 
 export default function RootLayout({

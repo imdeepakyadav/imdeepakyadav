@@ -1,12 +1,12 @@
 "use client"
 
-import { useEffect, useState } from "react"
-import Link from "next/link"
+import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Github, Linkedin, Mail, ArrowRight, Download, Star, Users, Coffee, Award, ExternalLink } from "lucide-react"
 import WaveBackground from "@/components/wave-background"
+import { ArrowRight, Award, Coffee, Download, ExternalLink, Github, Linkedin, Mail, Star, Users } from "lucide-react"
+import Link from "next/link"
+import { useEffect, useState } from "react"
 
 export default function HomePage() {
   const [mounted, setMounted] = useState(false)
@@ -20,7 +20,7 @@ export default function HomePage() {
       id: "yogaapp",
       title: "YogaApp",
       description: "Cross-platform Yoga Management System with student & trainer management",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/yoga_app_mockup_1765692114993.png",
       tags: ["React Native", "Expo", "TypeScript"],
       status: "Private",
     },
@@ -28,7 +28,7 @@ export default function HomePage() {
       id: "reconnect",
       title: "ReConnect",
       description: "Global Video Chat & Social Platform with random video calls worldwide",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/reconnect_app_mockup_1765692136282.png",
       tags: ["React Native", "Firebase", "WebRTC"],
       status: "Private",
     },
@@ -36,7 +36,7 @@ export default function HomePage() {
       id: "paisapilot",
       title: "PaisaPilot",
       description: "Smart Personal Finance Manager with AI-powered insights",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/paisapilot_app_mockup_1765692157320.png",
       tags: ["React Native", "OpenAI", "Firebase"],
       status: "Open Source",
     },
