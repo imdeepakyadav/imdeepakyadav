@@ -1,11 +1,11 @@
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowLeft, Search } from "lucide-react"
+import Link from "next/link"
 
 export default function ProjectNotFound() {
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-transparent flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <Card className="max-w-md w-full text-center">
         <CardContent className="p-12">
           <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">

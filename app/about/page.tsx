@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import WaveBackground from "@/components/wave-background"
+
 import {
   ArrowRight,
   Award,
@@ -123,8 +123,8 @@ export default function AboutPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-background relative overflow-hidden">
-      <WaveBackground />
+    <div className="min-h-screen bg-transparent relative overflow-hidden">
+
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         {/* Hero Section */}

@@ -1,11 +1,11 @@
-import type { Metadata } from "next"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
-import { ArrowRight, Code, Smartphone, Database, Cloud, Palette, Zap } from "lucide-react"
+import { ArrowRight, Cloud, Code, Database, Palette, Smartphone, Zap } from "lucide-react"
+import type { Metadata } from "next"
 import Link from "next/link"
-import WaveBackground from "@/components/wave-background"
+
 
 export const metadata: Metadata = {
   title: "Skills - Deepak Yadav",
@@ -81,8 +81,8 @@ export default function SkillsPage() {
   const currentlyLearning = ["GraphQL", "Kubernetes", "Web3", "DevOps", "Microservices"]
 
   return (
-    <div className="min-h-screen bg-background relative overflow-hidden">
-      <WaveBackground />
+    <div className="min-h-screen bg-transparent relative overflow-hidden">
+
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         {/* Hero Section */}

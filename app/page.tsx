@@ -3,7 +3,7 @@
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import WaveBackground from "@/components/wave-background"
+
 import { ArrowRight, Award, Coffee, Download, ExternalLink, Github, Linkedin, Mail, Star, Users } from "lucide-react"
 import Link from "next/link"
 import { useEffect, useState } from "react"
@@ -61,8 +61,8 @@ export default function HomePage() {
   if (!mounted) return null
 
   return (
-    <div className="min-h-screen bg-background relative overflow-hidden">
-      <WaveBackground />
+    <div className="min-h-screen bg-transparent relative overflow-hidden">
+
 
       {/* Hero Section */}
       <section className="relative z-10 min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-16">

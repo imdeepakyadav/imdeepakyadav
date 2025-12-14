@@ -1,22 +1,22 @@
-import { notFound } from "next/navigation"
-import type { Metadata } from "next"
-import Link from "next/link"
+import ParticleSystem from "@/components/particle-system"
+import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { getAllProjects, getProjectById } from "@/lib/projects-data"
 import {
-  ArrowLeft,
-  Github,
-  ExternalLink,
-  Calendar,
-  Award,
-  CheckCircle,
-  AlertCircle,
-  Lightbulb,
-  TrendingUp,
+    AlertCircle,
+    ArrowLeft,
+    Award,
+    Calendar,
+    CheckCircle,
+    ExternalLink,
+    Github,
+    Lightbulb,
+    TrendingUp,
 } from "lucide-react"
-import { getProjectById, getAllProjects } from "@/lib/projects-data"
-import ParticleSystem from "@/components/particle-system"
+import type { Metadata } from "next"
+import Link from "next/link"
+import { notFound } from "next/navigation"
 
 interface ProjectPageProps {
   params: {
@@ -54,7 +54,7 @@ export default function ProjectPage({ params }: ProjectPageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-background relative overflow-hidden">
+    <div className="min-h-screen bg-transparent relative overflow-hidden">
       <ParticleSystem />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

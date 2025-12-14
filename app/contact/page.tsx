@@ -1,14 +1,14 @@
 "use client"
 
-import type React from "react"
-import { useState } from "react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Badge } from "@/components/ui/badge"
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Clock, CheckCircle, MessageSquare, Send } from "lucide-react"
-import WaveBackground from "@/components/wave-background"
+import { CheckCircle, Clock, Github, Linkedin, Mail, MapPin, MessageCircle, MessageSquare, Phone, Send, Twitter } from "lucide-react"
+import type React from "react"
+import { useState } from "react"
+
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -34,18 +34,18 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: "Email",
-      value: "deepak@example.com",
+      value: "work.deepak.yadav@gmail.com",
       description: "I'll respond within 24 hours",
-      href: "mailto:deepak@example.com",
+      href: "mailto:work.deepak.yadav@gmail.com",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+91 98765 43210",
+      value: "+91 88608 91342",
       description: "Mon-Fri, 9AM-6PM IST",
-      href: "tel:+919876543210",
+      href: "tel:+918860891342",
     },
-    { icon: MapPin, title: "Location", value: "India", description: "Open to remote work", href: null },
+    { icon: MapPin, title: "Location", value: "Faridabad, Haryana 121001, India", description: "Open to remote work", href: null },
   ]
 
   const socialLinks = [
@@ -74,8 +74,8 @@ export default function ContactPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-background relative overflow-hidden">
-      <WaveBackground />
+    <div className="min-h-screen bg-transparent relative overflow-hidden">
+
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         {/* Hero Section */}
@@ -178,7 +178,17 @@ export default function ContactPage() {
                   )}
                 </Button>
               </form>
+              
             </CardContent>
+            <CardContent className="flex items-center justify-center">
+              {/* Add A WhatsApp Button With Message input typed by user */}
+              <Button className="w-full hover-lift hover-glow" onClick={() => window.open("https://wa.me/918860891342?text=" + encodeURIComponent(formData.message), "_blank")}>
+                <MessageCircle className="mr-2 h-4 w-4" />
+                WhatsApp
+              </Button>
+
+            </CardContent>
+            
           </Card>
 
           {/* Contact Information */}

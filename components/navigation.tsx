@@ -38,7 +38,7 @@ export default function Navigation() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
-            ? "bg-background/80 backdrop-blur-xl border-b border-border shadow-lg shadow-black/10"
+            ? "bg-transparent/80 backdrop-blur-xl border-b border-border shadow-lg shadow-black/10"
             : "bg-transparent"
         }`}
       >
@@ -114,7 +114,7 @@ export default function Navigation() {
           {/* Mobile Navigation */}
           {isOpen && (
             <div className="md:hidden animate-fade-in-down">
-              <div className="px-2 pt-2 pb-4 space-y-1 bg-background/95 backdrop-blur-xl rounded-lg border border-border mt-2">
+              <div className="px-2 pt-2 pb-4 space-y-1 bg-transparent/95 backdrop-blur-xl rounded-lg border border-border mt-2">
                 {navItems.map((item) => (
                   <Link
                     key={item.name}
